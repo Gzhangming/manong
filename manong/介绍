@@ -1,0 +1,31 @@
+## 2-4
+
+- parent 父模块
+- common 通用模块
+- manager 管理模块
+- sso 单点登录模块
+- rest restful模块
+- search 搜索模块
+
+## 2-5
+
+使用 maven 的聚合工程
+
+- pojo 实体类  jar包
+- mapper sql jar包 继承pojo
+- service 业务层 jar包 继承mapper
+- web 业务 web包  继承service
+
+
+## 2-6
+
+ssm 的整合
+
+Spring --
+
+Spring mvc --> 表现层
+
+Mybatis  -->Dao
+
+
+
